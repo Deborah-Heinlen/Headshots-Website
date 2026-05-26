@@ -1019,13 +1019,14 @@
       border-top: 1px solid var(--border-faint);
       display: flex;
       align-items: stretch;
+      padding: 0 4vwpadding: 0 4vw;
     }
 
     .about-image {
       flex: 0 0 42%;
       position: relative;
       overflow: hidden;
-      min-height: 600px;
+      min-height: 400px;
     }
 
     .about-image img {
@@ -1037,13 +1038,6 @@
       display: block;
     }
 
-    .about-image::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to right, transparent 60%, var(--slate-blue) 100%);
-      pointer-events: none;
-    }
 
     .about-content {
       flex: 0 0 58%;
